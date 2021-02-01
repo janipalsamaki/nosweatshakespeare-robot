@@ -1,14 +1,15 @@
 # Log an act of Romeo & Juliet
 
+## Pull and run the robot
+
 ```
 rcc pull janipalsamaki/nosweatshakespeare-robot
 cd nosweatshakespeare-robot-main
 rcc run
 ```
 
-Example output:
+## Example output
 
-```
 It was hot. Sizzling. Even at eight o’clock.
 
 Verona was coming to life: people poured out of the houses and filled the streets while market traders set up their stalls in the grand piazza. It was a good patch, an excellent place to catch the business of those who lived and worked in the rich houses that lined Verona’s main square.
@@ -248,4 +249,3 @@ Benvolio grasped Romeo’s wrist. ‘Will you trust me? I can tell you how to fo
 
 ‘It’s no good.’ said Romeo. ‘Whenever I see a beautiful girl from now on I’ll only think of one who is even more beautiful. Goodbye Benvolio. There’s no way I could forget her. There’s nothing you can do.’
 ‘I’m taking that as a challenge,’ said Benvolio. ‘I’ll sort it out, don’t you worry.’
-```
