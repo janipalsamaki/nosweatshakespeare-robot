@@ -8,6 +8,8 @@ cd nosweatshakespeare-robot-main
 rcc run
 ```
 
+> See [RCC installation instructions](https://github.com/robocorp/rcc#installing-rcc-from-command-line).
+
 ## Example output
 
 It was hot. Sizzling. Even at eight o’clock.
