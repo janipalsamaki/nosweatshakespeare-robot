@@ -1,10 +1,14 @@
 *** Settings ***
+Documentation     Log an act of Romeo & Juliet.
 Library           Browser
 Library           String
 
+*** Variables ***
+${ACT_TITLE}=     %{ACT_TITLE="Modern Romeo & Juliet Act 1, Prologue"}
+
 *** Tasks ***
 Log an act from nosweatshakespeare.com
-    ${act_text}=    Get act by title    "Modern Romeo & Juliet Act 1, Prologue"
+    ${act_text}=    Get act by title    ${ACT_TITLE}
     Log To Console    ${act_text}
 
 *** Keywords ***
