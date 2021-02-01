@@ -5,15 +5,19 @@
 ```bash
 rcc pull janipalsamaki/nosweatshakespeare-robot
 cd nosweatshakespeare-robot-main
-rcc run
+rcc run -e devdata/env.json
 ```
 
 > See [RCC installation instructions](https://github.com/robocorp/rcc#installing-rcc-from-command-line).
 
-## Changing the act from the terminal
+## Configuring the act to search
 
-```bash
-ACT_TITLE="'Modern Romeo & Juliet Act 1, Scene 1'" rcc run
+Modify `devdata/env.json`:
+
+```json
+{
+  "ACT_TITLE": "Modern Romeo & Juliet Act 1, Scene 1"
+}
 ```
 
 ## Example output
