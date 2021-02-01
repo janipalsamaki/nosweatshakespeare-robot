@@ -2,13 +2,19 @@
 
 ## Pull and run the robot
 
-```
+```bash
 rcc pull janipalsamaki/nosweatshakespeare-robot
 cd nosweatshakespeare-robot-main
 rcc run
 ```
 
 > See [RCC installation instructions](https://github.com/robocorp/rcc#installing-rcc-from-command-line).
+
+## Changing the act from the terminal
+
+```bash
+ACT_TITLE="'Modern Romeo & Juliet Act 1, Scene 1'" rcc run
+```
 
 ## Example output
 
